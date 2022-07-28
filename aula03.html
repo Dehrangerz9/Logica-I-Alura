@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    function pulaLinha(){
+        document.write("<br>")
+    }
+    function print(text){
+        document.write(text);
+        pulaLinha();
+    }
+    var ano = 2016
+    var PularLinha = "<br>"
+    //Se eu colocar uma tag html como variavel, ele vai entender que é uma tag por se tratar de uma string.
+    document.write("Flávio tem ", (ano - 1977), " anos ", "<br>");
+    pulaLinha();
+    print("Alura é um ótimo curso");
+    print("E eu aprendi funções");
+</script>
+</html>

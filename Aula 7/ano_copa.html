@@ -13,16 +13,11 @@
 		document.write(frase);
 		pulaLinha();
 	}
-
-	var numeroPensado = Math.round(Math.random() * 10);
-
-	var chute = parseInt(prompt("Digite seu chute!"));
-
-	if(chute == numeroPensado) {
-
-		mostra("Você acertou!");
-	} else {
-		mostra("Você errou, o número pensado foi " + numeroPensado);
+	var anoCopa = 1930;
+	var limite = parseInt(prompt('Digite até que ano terá copa'))
+	while(anoCopa < limite){
+	anoCopa = anoCopa + 4;
+	mostra("Teve copa em "+ anoCopa)
 	}
 
 </script>
